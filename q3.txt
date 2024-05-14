@@ -1,0 +1,9 @@
+    def get_critical_path(self) -> List[str]:
+        """Finds the critical path in a build.
+
+        The critical path is the longest chain of jobs that must happen sequentially in order for the build to complete.
+
+        Returns:
+            A list of steps that form the critical path.
+        """
+        raise NotImplementedError("TODO")
